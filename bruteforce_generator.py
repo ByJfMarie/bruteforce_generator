@@ -17,7 +17,7 @@ def main(argv):
          sys.exit()
       elif opt in ("-w", "--wordlist"):
          wordlistFile = arg
-   print ('Wordlist file is "', wordlistFile)
+   print (wordlistFile)
 
 if __name__ == "__main__":
    main(sys.argv[1:])
