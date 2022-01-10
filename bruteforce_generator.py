@@ -7,7 +7,7 @@ os.system("echo Hello from the other side!")
 def main(argv):
    wordlistFile = ''
    try:
-      opts, args = getopt.getopt(argv,"hw",["wordlist="])
+      opts, args = getopt.getopt(argv,"h:w",["wordlist="])
    except getopt.GetoptError:
       print('bruteforce_generator.py -w <wordlist>')
       sys.exit(2)
