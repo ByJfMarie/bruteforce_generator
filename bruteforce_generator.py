@@ -10,4 +10,7 @@ except:
 
 for line in wordlist:
     line = line.strip()
-    print (line)
+    char = len(line)
+    os.system("crunch "+char+" "+char+" -t "+line+" -o bruteforce.txt")
+    os.system("cat bruteforce.txt >> bruteforce_all.txt")
+    
